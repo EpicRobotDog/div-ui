@@ -1,4 +1,4 @@
-# div-ui2
+# div-ui
 
 ## Project setup
 ```
