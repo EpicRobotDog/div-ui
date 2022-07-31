@@ -5,6 +5,7 @@
 </template>
 <script>
 export default {
+  name: "div-width",
   components: {},
   props: {
     size: {

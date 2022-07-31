@@ -13,6 +13,7 @@
 </template>
 <script>
 export default {
+  name: "div-box",
   components: {},
   props: {
     src: {
