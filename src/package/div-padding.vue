@@ -1,11 +1,11 @@
 <template>
-  <div class="div-padding" :style="'padding:' + padding">
+  <div class="div-padding" :style="'padding:' + padding + ';'">
     <slot></slot>
   </div>
 </template>
 <script>
 export default {
-  components: {},
+  name: "div-padding",
   props: {
     padding: {
       type: String,
