@@ -11,7 +11,9 @@ import divRight from '@/package/div-right.vue'
 import divSon from '@/package/div-son.vue'
 import divText from '@/package/div-text.vue'
 import divWidth from '@/package/div-width.vue'
-
+import divPadding from '@/package/div-padding.vue'
+import divBtn from '@/package/div-btn.vue'
+import divHtml from '@/package/div-html.vue'
 
 const components = [
     divBoth,
@@ -26,7 +28,10 @@ const components = [
     divRight,
     divSon,
     divText,
-    divWidth
+    divWidth,
+    divPadding,
+    divBtn,
+    divHtml
 ]
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
 const install = function (Vue) {
